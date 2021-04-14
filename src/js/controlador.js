@@ -5,8 +5,3 @@ const resultsContainer = document.querySelector('#result_container');
 
 
 
-// // Cargando el navbar
-// window.onload = function(){
-//     cmpNavbar();
-// }
-

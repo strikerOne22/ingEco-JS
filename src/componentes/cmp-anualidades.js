@@ -95,22 +95,26 @@ const calNominal = ()=>{
 
 const imprNominal = (renta, tasa, tiempo, capInv2, monto2, interes2, cap)=>{
     let divAnswer = document.getElementById('answer');
-    divAnswer.innerHTML = `<p>
-        <strong>Renta: $</strong> ` + renta + ` <br>
-        <strong>Tasa Interés Nominal: </strong> ` + tasa*100 + `% Anual <br>
-        <strong>Capitalizable (m): </strong> ` + cap + ` <br>
-        <strong>Plazo: </strong> ` + tiempo + ` años <br><br>
+    divAnswer.innerHTML = /* template */
+        `<p>
+            <h6>RESPUESTA</h6><hr>
+            <strong>Renta: $</strong> ` + renta + ` <br>
+            <strong>Tasa Interés Nominal: </strong> ` + tasa*100 + `% Anual <br>
+            <strong>Capitalizable (m): </strong> ` + cap + ` <br>
+            <strong>Plazo: </strong> ` + tiempo + ` años <br><br>
 
-        <strong>Capital de Inversión: $</strong> ` + capInv2 + ` <br>
-        <strong>Monto: $</strong> ` + monto2 + ` <br>
-        <strong>Interés: $</strong> ` + interes2 + ` <br>
-    </p>`;
+            <strong>Capital de Inversión: $</strong> ` + capInv2 + ` <br>
+            <strong>Monto: $</strong> ` + monto2 + ` <br>
+            <strong>Interés: $</strong> ` + interes2 + ` <br>
+        </p>`;
 }
     
 
 const imprEfectiva = (renta, tasa, tiempo, capInv2, monto2, interes2)=>{
         let divAnswer = document.getElementById('answer');
-        divAnswer.innerHTML = `<p>
+        divAnswer.innerHTML = /* template */
+        `<p>
+            <h6>RESPUESTA</h6><hr>
             <strong>Renta: $</strong> ` + renta + ` <br>
             <strong>Tasa Interés Efectiva: </strong> ` + tasa*100 + `% Anual <br>
             <strong>Plazo: </strong> ` + tiempo + ` años <br><br>
