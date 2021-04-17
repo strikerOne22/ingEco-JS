@@ -5,3 +5,16 @@
 .container{
     margin-top: 25px;
 }
+
+#myPicture{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: solid black 1px;
+    float: left;
+}
+
+#myName{
+    margin-left: 10px;
+    float: left;
+}

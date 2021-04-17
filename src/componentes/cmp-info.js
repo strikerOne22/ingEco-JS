@@ -2,9 +2,13 @@
 let cmpInformation = /* template */
     `
     <div class="col-md-6">
-        <h4>DAVID HERNÁNDEZ</h4><hr>
+    <img src="src/img/yo.jpg" id="myPicture">
+        <h4 id="myName">DAVID HERNÁNDEZ</h4>
+        <br><hr>
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos similique omnis ad illo, sunt cupiditate unde adipisci, sequi error accusamus, nobis eaque. Culpa accusantium quia natus ducimus facere cum aperiam.</p>
+        <p style="text-align:justify">David Hernández es un estudiante de ingeniería informática que en sus ratos libres crea proyectos personales con la finalidad de mejorar sus conocimientos en programación web y otros conocimientos de la carrera. <br> En este caso de la cátedra de Ingeniería Económica. Que habla de diversos temas financieros.</p>
+
+        <a href="#">Link me!</a>
 
     </div>
     `;
